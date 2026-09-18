@@ -1,0 +1,542 @@
+{
+  "date": "2026-09-17T08:49:19.784Z",
+  "checks": [
+    {
+      "name": "Keyboard acceleration",
+      "pass": true,
+      "details": {
+        "id": "you",
+        "speed": 26.05,
+        "s": 8.52,
+        "progress": 8.52,
+        "lap": 1,
+        "rank": 1,
+        "checkpoint": 0,
+        "recoveries": 0,
+        "falling": false,
+        "finished": false,
+        "item": null,
+        "itemsUsed": 0,
+        "gatesCollected": 0,
+        "shortcutsTaken": 0
+      }
+    },
+    {
+      "name": "Keyboard brake",
+      "pass": true,
+      "details": {
+        "id": "you",
+        "speed": 5.74,
+        "s": 17.89,
+        "progress": 17.89,
+        "lap": 1,
+        "rank": 4,
+        "checkpoint": 0,
+        "recoveries": 0,
+        "falling": false,
+        "finished": false,
+        "item": null,
+        "itemsUsed": 0,
+        "gatesCollected": 0,
+        "shortcutsTaken": 0
+      }
+    },
+    {
+      "name": "Keyboard steering",
+      "pass": true,
+      "details": {
+        "before": -2.9272752571465874,
+        "after": -3.2419878582012487
+      }
+    },
+    {
+      "name": "Pause freezes race",
+      "pass": true,
+      "details": "paused"
+    },
+    {
+      "name": "Physically driven full race",
+      "pass": true,
+      "details": {
+        "snapshot": {
+          "state": "finished",
+          "elapsed": 126,
+          "laps": 3,
+          "racers": [
+            {
+              "id": "you",
+              "speed": 34.78,
+              "s": 0.1,
+              "progress": 3928.69,
+              "lap": 3,
+              "rank": 3,
+              "checkpoint": 13,
+              "recoveries": 0,
+              "falling": false,
+              "finished": true,
+              "item": "snare",
+              "itemsUsed": 0,
+              "gatesCollected": 1,
+              "shortcutsTaken": 0
+            },
+            {
+              "id": "vale",
+              "speed": 36.55,
+              "s": 1307.39,
+              "progress": 3926.45,
+              "lap": 3,
+              "rank": 4,
+              "checkpoint": 12,
+              "recoveries": 0,
+              "falling": false,
+              "finished": false,
+              "item": null,
+              "itemsUsed": 11,
+              "gatesCollected": 11,
+              "shortcutsTaken": 0
+            },
+            {
+              "id": "cinder",
+              "speed": 34.22,
+              "s": 0.01,
+              "progress": 3928.59,
+              "lap": 3,
+              "rank": 2,
+              "checkpoint": 13,
+              "recoveries": 0,
+              "falling": false,
+              "finished": true,
+              "item": null,
+              "itemsUsed": 11,
+              "gatesCollected": 11,
+              "shortcutsTaken": 1
+            },
+            {
+              "id": "vex",
+              "speed": 33.83,
+              "s": 0.6,
+              "progress": 3929.19,
+              "lap": 3,
+              "rank": 1,
+              "checkpoint": 13,
+              "recoveries": 0,
+              "falling": false,
+              "finished": true,
+              "item": "shield",
+              "itemsUsed": 4,
+              "gatesCollected": 5,
+              "shortcutsTaken": 3
+            }
+          ],
+          "player": {
+            "x": 3.466350854563004,
+            "y": 0.7500074648806351,
+            "z": 129.32350749901383,
+            "heading": -21.931872124440737,
+            "wrongWay": false,
+            "driftCharge": 0,
+            "boost": 0,
+            "shield": 0
+          },
+          "trackLength": 1309.5286630630453
+        },
+        "cpuMin": 10.502877789232596,
+        "steps": 7560
+      }
+    },
+    {
+      "name": "CPU keeps moving",
+      "pass": true,
+      "details": 10.502877789232596
+    },
+    {
+      "name": "Skipping checkpoints cannot finish",
+      "pass": true,
+      "details": {
+        "id": "you",
+        "speed": 28.05,
+        "s": 11.08,
+        "progress": 0.08,
+        "lap": 1,
+        "rank": 1,
+        "checkpoint": 0,
+        "recoveries": 0,
+        "falling": false,
+        "finished": false,
+        "item": null,
+        "itemsUsed": 0,
+        "gatesCollected": 0,
+        "shortcutsTaken": 0
+      }
+    },
+    {
+      "name": "Reverse travel detected",
+      "pass": true,
+      "details": {
+        "state": "racing",
+        "elapsed": 1,
+        "laps": 3,
+        "racers": [
+          {
+            "id": "you",
+            "speed": -10,
+            "s": 90.18,
+            "progress": -21.82,
+            "lap": 1,
+            "rank": 4,
+            "checkpoint": 0,
+            "recoveries": 0,
+            "falling": false,
+            "finished": false,
+            "item": null,
+            "itemsUsed": 0,
+            "gatesCollected": 0,
+            "shortcutsTaken": 0
+          },
+          {
+            "id": "vale",
+            "speed": 17.89,
+            "s": 1306.61,
+            "progress": -2.92,
+            "lap": 1,
+            "rank": 1,
+            "checkpoint": 0,
+            "recoveries": 0,
+            "falling": false,
+            "finished": false,
+            "item": null,
+            "itemsUsed": 0,
+            "gatesCollected": 0,
+            "shortcutsTaken": 0
+          },
+          {
+            "id": "cinder",
+            "speed": 17.89,
+            "s": 1298.8,
+            "progress": -10.73,
+            "lap": 1,
+            "rank": 2,
+            "checkpoint": 0,
+            "recoveries": 0,
+            "falling": false,
+            "finished": false,
+            "item": null,
+            "itemsUsed": 0,
+            "gatesCollected": 0,
+            "shortcutsTaken": 0
+          },
+          {
+            "id": "vex",
+            "speed": 17.89,
+            "s": 1298.68,
+            "progress": -10.85,
+            "lap": 1,
+            "rank": 3,
+            "checkpoint": 0,
+            "recoveries": 0,
+            "falling": false,
+            "finished": false,
+            "item": null,
+            "itemsUsed": 0,
+            "gatesCollected": 0,
+            "shortcutsTaken": 0
+          }
+        ],
+        "player": {
+          "x": -1.6488223253717873,
+          "y": 1.2107767436704677,
+          "z": 40.14419138950982,
+          "heading": 3.034141414467049,
+          "wrongWay": true,
+          "driftCharge": 0,
+          "boost": 0,
+          "shield": 0
+        },
+        "trackLength": 1309.5286630630453
+      }
+    },
+    {
+      "name": "Fall and automatic recovery",
+      "pass": true,
+      "details": {
+        "fell": true,
+        "snapshot": {
+          "state": "racing",
+          "elapsed": 1.68,
+          "laps": 3,
+          "racers": [
+            {
+              "id": "you",
+              "speed": 5.58,
+              "s": 1300.33,
+              "progress": -9.2,
+              "lap": 1,
+              "rank": 4,
+              "checkpoint": 0,
+              "recoveries": 1,
+              "falling": false,
+              "finished": false,
+              "item": null,
+              "itemsUsed": 0,
+              "gatesCollected": 0,
+              "shortcutsTaken": 0
+            },
+            {
+              "id": "vale",
+              "speed": 28.93,
+              "s": 13.09,
+              "progress": 13.09,
+              "lap": 1,
+              "rank": 1,
+              "checkpoint": 0,
+              "recoveries": 0,
+              "falling": false,
+              "finished": false,
+              "item": null,
+              "itemsUsed": 0,
+              "gatesCollected": 0,
+              "shortcutsTaken": 0
+            },
+            {
+              "id": "cinder",
+              "speed": 28.93,
+              "s": 5.61,
+              "progress": 5.61,
+              "lap": 1,
+              "rank": 2,
+              "checkpoint": 0,
+              "recoveries": 0,
+              "falling": false,
+              "finished": false,
+              "item": null,
+              "itemsUsed": 0,
+              "gatesCollected": 0,
+              "shortcutsTaken": 0
+            },
+            {
+              "id": "vex",
+              "speed": 28.93,
+              "s": 5.06,
+              "progress": 5.06,
+              "lap": 1,
+              "rank": 3,
+              "checkpoint": 0,
+              "recoveries": 0,
+              "falling": false,
+              "finished": false,
+              "item": null,
+              "itemsUsed": 0,
+              "gatesCollected": 0,
+              "shortcutsTaken": 0
+            }
+          ],
+          "player": {
+            "x": 1.854460808067483,
+            "y": 0.7548675718823973,
+            "z": 139.00626854181866,
+            "heading": -2.9272752571465874,
+            "wrongWay": false,
+            "driftCharge": 0,
+            "boost": 0,
+            "shield": 0
+          },
+          "trackLength": 1309.5286630630453
+        }
+      }
+    },
+    {
+      "name": "R recovery keyboard",
+      "pass": true,
+      "details": {
+        "id": "you",
+        "speed": 7.31,
+        "s": 1298.42,
+        "progress": -11.11,
+        "lap": 1,
+        "rank": 4,
+        "checkpoint": 0,
+        "recoveries": 1,
+        "falling": false,
+        "finished": false,
+        "item": null,
+        "itemsUsed": 0,
+        "gatesCollected": 0,
+        "shortcutsTaken": 0
+      }
+    },
+    {
+      "name": "Space charges physical drift",
+      "pass": true,
+      "details": {
+        "x": 45.34782102173739,
+        "y": 3.387310025441742,
+        "z": -74.88930733470573,
+        "heading": 1.1723248208273125,
+        "wrongWay": false,
+        "driftCharge": 1.0500000000000012,
+        "boost": 0,
+        "shield": 0
+      }
+    },
+    {
+      "name": "Drift release grants boost",
+      "pass": true,
+      "details": {
+        "x": 46.024118691988214,
+        "y": 3.4009693237729257,
+        "z": -74.83989251245512,
+        "heading": 1.1570314994937052,
+        "wrongWay": false,
+        "driftCharge": 0,
+        "boost": 1,
+        "shield": 0
+      }
+    },
+    {
+      "name": "Shift uses pulse",
+      "pass": true,
+      "details": {
+        "item": null,
+        "used": 1,
+        "boost": 2.2,
+        "shield": 0,
+        "traps": 0,
+        "s": 41.617486244172824
+      }
+    },
+    {
+      "name": "Shift uses shield",
+      "pass": true,
+      "details": {
+        "item": null,
+        "used": 1,
+        "boost": 0,
+        "shield": 6.9,
+        "traps": 0,
+        "s": 41.46051207535629
+      }
+    },
+    {
+      "name": "Shift uses snare",
+      "pass": true,
+      "details": {
+        "item": null,
+        "used": 1,
+        "boost": 0,
+        "shield": 0,
+        "traps": 1,
+        "s": 41.46051207535629
+      }
+    },
+    {
+      "name": "Shift uses vector",
+      "pass": true,
+      "details": {
+        "item": null,
+        "used": 1,
+        "boost": 0,
+        "shield": 0,
+        "traps": 0,
+        "s": 69.46050845041759
+      }
+    },
+    {
+      "name": "Restart button resets full race",
+      "pass": true,
+      "details": {
+        "state": "countdown",
+        "elapsed": 0,
+        "laps": 3,
+        "racers": [
+          {
+            "id": "you",
+            "speed": 0,
+            "s": 1297.53,
+            "progress": -12,
+            "lap": 1,
+            "rank": 1,
+            "checkpoint": 0,
+            "recoveries": 0,
+            "falling": false,
+            "finished": false,
+            "item": null,
+            "itemsUsed": 0,
+            "gatesCollected": 0,
+            "shortcutsTaken": 0
+          },
+          {
+            "id": "vale",
+            "speed": 0,
+            "s": 1297.53,
+            "progress": -12,
+            "lap": 1,
+            "rank": 2,
+            "checkpoint": 0,
+            "recoveries": 0,
+            "falling": false,
+            "finished": false,
+            "item": null,
+            "itemsUsed": 0,
+            "gatesCollected": 0,
+            "shortcutsTaken": 0
+          },
+          {
+            "id": "cinder",
+            "speed": 0,
+            "s": 1289.53,
+            "progress": -20,
+            "lap": 1,
+            "rank": 3,
+            "checkpoint": 0,
+            "recoveries": 0,
+            "falling": false,
+            "finished": false,
+            "item": null,
+            "itemsUsed": 0,
+            "gatesCollected": 0,
+            "shortcutsTaken": 0
+          },
+          {
+            "id": "vex",
+            "speed": 0,
+            "s": 1289.53,
+            "progress": -20,
+            "lap": 1,
+            "rank": 4,
+            "checkpoint": 0,
+            "recoveries": 0,
+            "falling": false,
+            "finished": false,
+            "item": null,
+            "itemsUsed": 0,
+            "gatesCollected": 0,
+            "shortcutsTaken": 0
+          }
+        ],
+        "player": {
+          "x": 5.480037338909918,
+          "y": 0.7582988580882107,
+          "z": 141.08747032657192,
+          "heading": -2.9272752571465874,
+          "wrongWay": false,
+          "driftCharge": 0,
+          "boost": 0,
+          "shield": 0
+        },
+        "trackLength": 1309.5286630630453
+      }
+    },
+    {
+      "name": "No browser console errors",
+      "pass": true,
+      "details": []
+    }
+  ],
+  "stats": {
+    "fps": 60,
+    "drawCalls": 112,
+    "triangles": 67886,
+    "renderScale": 1,
+    "softwareGPU": false
+  }
+}

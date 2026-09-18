@@ -1,0 +1,252 @@
+{
+  "date": "2026-09-17T08:35:24.769Z",
+  "checks": [
+    {
+      "name": "Keyboard acceleration",
+      "pass": true,
+      "details": {
+        "id": "you",
+        "speed": 25.9,
+        "s": 11.61,
+        "progress": 11.61,
+        "lap": 1,
+        "rank": 1,
+        "checkpoint": 0,
+        "recoveries": 0,
+        "falling": false,
+        "finished": false,
+        "item": null
+      }
+    },
+    {
+      "name": "Keyboard brake",
+      "pass": true,
+      "details": {
+        "id": "you",
+        "speed": 4.18,
+        "s": 22.62,
+        "progress": 22.62,
+        "lap": 1,
+        "rank": 2,
+        "checkpoint": 0,
+        "recoveries": 0,
+        "falling": false,
+        "finished": false,
+        "item": null
+      }
+    },
+    {
+      "name": "Keyboard steering",
+      "pass": true,
+      "details": {
+        "before": -2.9272752571465874,
+        "after": -3.3347392644825464
+      }
+    },
+    {
+      "name": "Pause freezes race",
+      "pass": true,
+      "details": "paused"
+    },
+    {
+      "name": "Physically driven full race",
+      "pass": true,
+      "details": {
+        "snapshot": {
+          "state": "finished",
+          "elapsed": 48.3,
+          "laps": 1,
+          "racers": [
+            {
+              "id": "you",
+              "speed": 37.14,
+              "s": 0.41,
+              "progress": 1309.94,
+              "lap": 1,
+              "rank": 1,
+              "checkpoint": 14,
+              "recoveries": 0,
+              "falling": false,
+              "finished": true,
+              "item": null
+            },
+            {
+              "id": "vale",
+              "speed": 37.86,
+              "s": 1301.96,
+              "progress": 1301.96,
+              "lap": 1,
+              "rank": 2,
+              "checkpoint": 13,
+              "recoveries": 0,
+              "falling": false,
+              "finished": false,
+              "item": null
+            }
+          ],
+          "player": {
+            "x": 1.7195551495349626,
+            "y": 0.750031260246805,
+            "z": 129.23771164015292,
+            "heading": -9.268989811441376,
+            "wrongWay": false,
+            "driftCharge": 0,
+            "boost": 0,
+            "shield": 0
+          },
+          "trackLength": 1309.5286630630453
+        },
+        "cpuMin": 10.645817712871855,
+        "steps": 2898
+      }
+    },
+    {
+      "name": "CPU keeps moving",
+      "pass": true,
+      "details": 10.645817712871855
+    },
+    {
+      "name": "Skipping checkpoints cannot finish",
+      "pass": true,
+      "details": {
+        "id": "you",
+        "speed": 28.05,
+        "s": 11.08,
+        "progress": 0.08,
+        "lap": 1,
+        "rank": 1,
+        "checkpoint": 0,
+        "recoveries": 0,
+        "falling": false,
+        "finished": false,
+        "item": null
+      }
+    },
+    {
+      "name": "Reverse travel detected",
+      "pass": true,
+      "details": {
+        "state": "racing",
+        "elapsed": 1,
+        "laps": 1,
+        "racers": [
+          {
+            "id": "you",
+            "speed": -10,
+            "s": 90.18,
+            "progress": -21.82,
+            "lap": 1,
+            "rank": 2,
+            "checkpoint": 0,
+            "recoveries": 0,
+            "falling": false,
+            "finished": false,
+            "item": null
+          },
+          {
+            "id": "vale",
+            "speed": 17.89,
+            "s": 1306.61,
+            "progress": -2.92,
+            "lap": 1,
+            "rank": 1,
+            "checkpoint": 0,
+            "recoveries": 0,
+            "falling": false,
+            "finished": false,
+            "item": null
+          }
+        ],
+        "player": {
+          "x": -1.6488223253717873,
+          "y": 1.2107767436704677,
+          "z": 40.14419138950982,
+          "heading": 3.034141414467049,
+          "wrongWay": true,
+          "driftCharge": 0,
+          "boost": 0,
+          "shield": 0
+        },
+        "trackLength": 1309.5286630630453
+      }
+    },
+    {
+      "name": "Fall and automatic recovery",
+      "pass": true,
+      "details": {
+        "fell": true,
+        "snapshot": {
+          "state": "racing",
+          "elapsed": 1.68,
+          "laps": 1,
+          "racers": [
+            {
+              "id": "you",
+              "speed": 5.58,
+              "s": 1300.33,
+              "progress": -9.2,
+              "lap": 1,
+              "rank": 2,
+              "checkpoint": 0,
+              "recoveries": 1,
+              "falling": false,
+              "finished": false,
+              "item": null
+            },
+            {
+              "id": "vale",
+              "speed": 28.93,
+              "s": 13.09,
+              "progress": 13.09,
+              "lap": 1,
+              "rank": 1,
+              "checkpoint": 0,
+              "recoveries": 0,
+              "falling": false,
+              "finished": false,
+              "item": null
+            }
+          ],
+          "player": {
+            "x": 1.854460808067483,
+            "y": 0.7548675718823973,
+            "z": 139.00626854181866,
+            "heading": -2.9272752571465874,
+            "wrongWay": false,
+            "driftCharge": 0,
+            "boost": 0,
+            "shield": 0
+          },
+          "trackLength": 1309.5286630630453
+        }
+      }
+    },
+    {
+      "name": "R recovery keyboard",
+      "pass": true,
+      "details": {
+        "id": "you",
+        "speed": 9.85,
+        "s": 1300.31,
+        "progress": -9.21,
+        "lap": 1,
+        "rank": 2,
+        "checkpoint": 0,
+        "recoveries": 1,
+        "falling": false,
+        "finished": false,
+        "item": null
+      }
+    },
+    {
+      "name": "No browser console errors",
+      "pass": true,
+      "details": []
+    }
+  ],
+  "stats": {
+    "fps": 14,
+    "drawCalls": 71,
+    "triangles": 111686
+  }
+}
